@@ -6,19 +6,19 @@ async function getContentFromFile(filePath) {
     return JSON.parse(data);
 };
 
-async function getUsers(request, response) {
-    const usersPath = path.join(__dirname, "..", "data", "users.json");
+async function getRecipe(request, response) {
+    const usersPath = path.join(__dirname, "..", "data", "recipes.json");
     const users = await getContentFromFile(usersPath);
     response.json(users);
 };
 
-function addUser(request, response) {
+function addRecipe(request, response) {
     response.json({
         'message': 'Nieuwe user gepost!'
     });
 };
 
 module.exports = {
-    getUsers,
-    addUser
+    getRecipe,
+    addRecipe
 };
