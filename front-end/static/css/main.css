@@ -1,0 +1,13 @@
+/* ===== GENERAL ===== */
+body {
+    background-color: hsl(22, 50%, 50%);
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: hsl(0, 53%, 36%);
+    color: hsl(47, 26%, 93%);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
