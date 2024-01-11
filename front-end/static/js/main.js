@@ -5,16 +5,20 @@ async function getRecipes() {
     generateRecipes(recipes);
 };
 
-getRecipes();
 
 function generateRecipes(recipes) {
     //title, cookingtime, difficulty, servings
     const $recipe = document.getElementById('recipes');
     let html = "";
     for (const recipe in recipes) {
-        html = `<article>
-        <h2>${recipe.title}</h2>
+        console.log(recipe);
+        html += `<article>
+        <h2>${recipes[recipe].title}</h2>
+        <p>Cooking time: ${recipes[recipe].cookingTime}m</p>
+        <p>Servings: ${recipes[recipe].servings} | Difficulty: ${recipes[recipe].difficulty}</p>
         </article>`
     };
     $recipe.innerHTML = html;
 };
+
+getRecipes();
