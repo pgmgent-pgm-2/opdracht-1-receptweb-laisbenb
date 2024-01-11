@@ -17,13 +17,29 @@ header {
 }
 
 #recipes {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .recipe-article {
     background-color: hsl(0, 53%, 36%);
     padding: 1rem;
-    max-width: 20rem;
+}
+
+.image-box {
+    height: 30rem;
+    width: 30rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.recipe-article img {
+    height: 30rem;
+    width: 100%;
+    transform: translateY(0%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    object-fit: cover;
 }
