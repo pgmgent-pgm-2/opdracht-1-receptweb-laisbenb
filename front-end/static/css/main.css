@@ -2,6 +2,7 @@
 body {
     background-color: hsl(22, 50%, 50%);
     color: hsl(47, 26%, 93%);
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
