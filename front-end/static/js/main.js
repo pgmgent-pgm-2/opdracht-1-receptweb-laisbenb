@@ -11,7 +11,8 @@ function generateRecipes(recipes) {
     const $recipe = document.getElementById('recipes');
     let html = "";
     for (const recipe in recipes) {
-        console.log(recipe);
+        //console.log(recipe);
+        //console.log(recipes[recipe].image);
         html += `<article class="recipe-article">
         <h2>${recipes[recipe].title}</h2>
         <p>Cooking time: ${recipes[recipe].cookingTime}m</p>
