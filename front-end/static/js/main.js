@@ -14,6 +14,7 @@ function generateRecipes(recipes) {
         //console.log(recipe);
         //console.log(recipes[recipe].image);
         html += `<article class="recipe-article">
+        <img src="./static/media/images/${recipes[recipe].image}" alt="${recipes[recipe].title}">
         <h2>${recipes[recipe].title}</h2>
         <p>Cooking time: ${recipes[recipe].cookingTime}m</p>
         <p>Servings: ${recipes[recipe].servings} | Difficulty: ${recipes[recipe].difficulty}</p>

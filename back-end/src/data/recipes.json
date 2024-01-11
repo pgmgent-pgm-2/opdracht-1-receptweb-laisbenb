@@ -13,7 +13,7 @@
     "cookingTime": 30,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/chicken-alfredo.jpg"
+    "image": "chicken-alfredo.jpg"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "cookingTime": 25,
     "difficulty": "Easy",
     "servings": 3,
-    "image": "./media/images/vegetarian-stir-fry.jpg"
+    "image": "vegetarian-stir-fry.jpg"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
     "cookingTime": 15,
     "difficulty": "Easy",
     "servings": 2,
-    "image": "./media/images/margherita-pizza.jpg"
+    "image": "margherita-pizza.jpg"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
     "cookingTime": 20,
     "difficulty": "Easy",
     "servings": 4,
-    "image": "./media/images/beef-tacos.jpg"
+    "image": "beef-tacos.jpg"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
     "cookingTime": 25,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/lemon-dill-salmon.jpg"
+    "image": "lemon-dill-salmon.jpg"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
     "cookingTime": 10,
     "difficulty": "Easy",
     "servings": 2,
-    "image": "./media/images/caprese-salad.jpg"
+    "image": "caprese-salad.jpg"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
     "cookingTime": 35,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/spinach-and-feta-chicken.jpg"
+    "image": "spinach-and-feta-chicken.jpg"
   },
   {
     "id": 8,
@@ -125,7 +125,7 @@
     "cookingTime": 25,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/shrimp-scampi.jpg"
+    "image": "shrimp-scampi.jpg"
   },
   {
     "id": 9,
@@ -141,7 +141,7 @@
     "cookingTime": 40,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/homemade-sushi-rolls.jpg"
+    "image": "homemade-sushi-rolls.jpg"
   },
   {
     "id": 10,
@@ -157,7 +157,7 @@
     "cookingTime": 30,
     "difficulty": "Intermediate",
     "servings": 3,
-    "image": "./media/images/mushroom-risotto.jpg"
+    "image": "mushroom-risotto.jpg"
   },
   {
     "id": 11,
@@ -173,7 +173,7 @@
     "cookingTime": 20,
     "difficulty": "Easy",
     "servings": 4,
-    "image": "./media/images/honeymustard-glazed-salmon.jpg"
+    "image": "honeymustard-glazed-salmon.jpg"
   },
   {
     "id": 12,
@@ -189,7 +189,7 @@
     "cookingTime": 15,
     "difficulty": "Easy",
     "servings": 4,
-    "image": "./media/images/chicken-quesadillas.jpg"
+    "image": "chicken-quesadillas.jpg"
   },
   {
     "id": 13,
@@ -205,7 +205,7 @@
     "cookingTime": 10,
     "difficulty": "Easy",
     "servings": 2,
-    "image": "./media/images/greek-salad.jpg"
+    "image": "greek-salad.jpg"
   },
   {
     "id": 14,
@@ -221,7 +221,7 @@
     "cookingTime": 25,
     "difficulty": "Easy",
     "servings": 3,
-    "image": "./media/images/teriyaki-chicken-stir-fry.jpg"
+    "image": "teriyaki-chicken-stir-fry.jpg"
   },
   {
     "id": 15,
@@ -237,7 +237,7 @@
     "cookingTime": 20,
     "difficulty": "Easy",
     "servings": 2,
-    "image": "./media/images/pesto-pasta.jpg"
+    "image": "pesto-pasta.jpg"
   },
   {
     "id": 16,
@@ -253,7 +253,7 @@
     "cookingTime": 25,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/beef-and-broccoli-stir-fry.jpg"
+    "image": "beef-and-broccoli-stir-fry.jpg"
   },
   {
     "id": 17,
@@ -269,7 +269,7 @@
     "cookingTime": 30,
     "difficulty": "Easy",
     "servings": 4,
-    "image": "./media/images/butternut-squash-soup.jpg"
+    "image": "butternut-squash-soup.jpg"
   },
   {
     "id": 18,
@@ -285,7 +285,7 @@
     "cookingTime": 20,
     "difficulty": "Easy",
     "servings": 3,
-    "image": "./media/images/lemon-garlic-shrimp-pasta.jpg"
+    "image": "lemon-garlic-shrimp-pasta.jpg"
   },
   {
     "id": 19,
@@ -301,7 +301,7 @@
     "cookingTime": 15,
     "difficulty": "Easy",
     "servings": 2,
-    "image": "./media/images/egg-fried-rice.jpg"
+    "image": "egg-fried-rice.jpg"
   },
   {
     "id": 20,
@@ -317,6 +317,6 @@
     "cookingTime": 40,
     "difficulty": "Intermediate",
     "servings": 4,
-    "image": "./media/images/ratatouille.jpg"
+    "image": "ratatouille.jpg"
   }
 ]
