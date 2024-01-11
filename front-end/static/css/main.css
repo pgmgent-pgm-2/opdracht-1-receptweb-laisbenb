@@ -1,13 +1,29 @@
 /* ===== GENERAL ===== */
 body {
     background-color: hsl(22, 50%, 50%);
+    color: hsl(47, 26%, 93%);
+}
+
+.container {
+    margin: 3rem;
 }
 
 /* ===== HEADER ===== */
 header {
     background-color: hsl(0, 53%, 36%);
-    color: hsl(47, 26%, 93%);
     font-size: 2rem;
     text-align: center;
     padding: 1rem 0;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.recipe-article {
+    background-color: hsl(0, 53%, 36%);
+    padding: 1rem;
+    max-width: 20rem;
 }
