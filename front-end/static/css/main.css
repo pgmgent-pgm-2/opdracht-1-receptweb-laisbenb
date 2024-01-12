@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 .container {
     margin: 3rem;
 }

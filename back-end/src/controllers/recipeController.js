@@ -7,9 +7,14 @@ async function getContentFromFile(filePath) {
 };
 
 async function getRecipe(request, response) {
-    const usersPath = path.join(__dirname, "..", "data", "recipes.json");
-    const users = await getContentFromFile(usersPath);
-    response.json(users);
+    const { id } = request.params;
+    const recipesPath = path.join(__dirname, "..", "data", "recipes.json");
+    let recipes = await getContentFromFile(recipesPath);
+
+    if (id) {
+        recipes = recipes.find(recipe => recipe.id === parseInt(id));
+    }
+    response.json(recipes);
 };
 
 function addRecipe(request, response) {
