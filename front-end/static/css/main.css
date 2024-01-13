@@ -48,3 +48,41 @@ header {
     bottom: 0%;
     object-fit: cover;
 }
+
+/* ===== DETAIL ===== */
+.detail-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home a {
+    text-decoration: none;
+    color: hsl(47, 26%, 93%);
+    padding: .3rem;
+}
+
+.home a:hover {
+    background-color: black;
+}
+
+.detail-image {
+    width: 30rem;
+    padding: 1rem 0;
+}
+
+#ingredient-list h2 {
+    text-decoration: underline;
+}
+
+.difficulty-Intermediate {
+    background-color: orangered;
+    margin: 1rem 0;
+}
+
+.difficulty-Easy {
+    background-color: yellowgreen;
+    margin: 1rem 0;
+}
