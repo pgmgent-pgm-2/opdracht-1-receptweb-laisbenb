@@ -18,9 +18,7 @@ async function getRecipe(request, response) {
 };
 
 function addRecipe(request, response) {
-    response.json({
-        'message': 'Nieuwe user gepost!'
-    });
+    console.log(request.body);
 };
 
 module.exports = {
