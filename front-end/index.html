@@ -24,6 +24,38 @@
         <section id="recipes" class="container">
 
         </section>
+        <section>
+            <div class="add-recipe">
+                <input type="text" id="title" placeholder="Recipe title" required>
+
+                <label for="category">Category:</label>
+                <select id="category" name="Category" required>
+                    <option value="pasta">Pasta</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="seafood">Seafood</option>
+                    <option value="salad">Salad</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="soup">Soup</option>
+                    <option value="chinese">Chinese</option>
+                </select>
+    
+                <input type="text" id="ingredients" placeholder="Ingredients" required>
+    
+                <input type="text" id="instruction" placeholder="Instructions" required>
+                <input type="text" id="cookingtime" placeholder="Cooking time (in minutes)" required>
+    
+                <label for="difficulty">Difficulty</label>
+                <select id="difficulty" name="difficulty" required>
+                    <option value="easy">Easy</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="hard">Hard</option>
+                </select>
+    
+                <input type="text" id="servings" placeholder="Servings (number)" required>
+            </div>
+        </section>
     </main>
     <footer>
 
