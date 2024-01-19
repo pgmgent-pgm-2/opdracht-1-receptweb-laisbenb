@@ -33,9 +33,12 @@ function generateRecipes(recipes) {
 getRecipes();
 
 // ADD RECIPE
+const addRecipeBtn = document.getElementById('add-recipe');
+addRecipeBtn.addEventListener("click", addRecipe);
 
-function addRecipe() {
+async function addRecipe() {
     const title = document.getElementById('title').value;
+    console.log(title);
     const category = document.getElementById('category').value;
     const ingredients = document.getElementById('ingredients').value;
     const instructions = document.getElementById('instructions').value;
@@ -44,15 +47,24 @@ function addRecipe() {
     const servings = parseInt(document.getElementById('servings').value, 10);
 
     const newRecipe = {
-        title,
-        category,
-        instructions,
-        cookingTime,
-        difficulty,
-        servings
+        title: title,
+        category: category,
+        ingredients: ingredients,
+        instructions: instructions,
+        cookingTime: cookingTime,
+        difficulty: difficulty,
+        servings: servings
     };
+    
+    await fetch(`http://localhost:4201/recipes` , {
+        "method": "POST",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "body": JSON.stringify(newRecipe) 
+    });
 
+
+    console.log(newRecipe);
     return newRecipe;
-
-    alert('New recipe added!');
 };

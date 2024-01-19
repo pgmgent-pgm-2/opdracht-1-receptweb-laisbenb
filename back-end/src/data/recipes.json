@@ -4,10 +4,10 @@
     "title": "Chicken Alfredo",
     "category": "Pasta",
     "ingredients": [
-      {"name": "fettuccine", "amount": "250g"},
-      {"name": "chicken breast", "amount": "300g"},
-      {"name": "heavy cream", "amount": "1 cup"},
-      {"name": "parmesan cheese", "amount": "100g"}
+      { "name": "fettuccine", "amount": "250g" },
+      { "name": "chicken breast", "amount": "300g" },
+      { "name": "heavy cream", "amount": "1 cup" },
+      { "name": "parmesan cheese", "amount": "100g" }
     ],
     "instructions": "Cook fettuccine. Grill chicken and slice. Heat cream, add cheese, and mix with pasta. Top with grilled chicken.",
     "cookingTime": 30,
@@ -20,10 +20,10 @@
     "title": "Vegetarian Stir-Fry",
     "category": "Vegetarian",
     "ingredients": [
-      {"name": "tofu", "amount": "300g"},
-      {"name": "broccoli", "amount": "200g"},
-      {"name": "carrots", "amount": "150g"},
-      {"name": "soy sauce", "amount": "3 tbsp"}
+      { "name": "tofu", "amount": "300g" },
+      { "name": "broccoli", "amount": "200g" },
+      { "name": "carrots", "amount": "150g" },
+      { "name": "soy sauce", "amount": "3 tbsp" }
     ],
     "instructions": "Cube tofu, stir-fry with vegetables. Add soy sauce and cook until veggies are tender. Serve hot.",
     "cookingTime": 25,
@@ -36,10 +36,10 @@
     "title": "Margherita Pizza",
     "category": "Pizza",
     "ingredients": [
-      {"name": "pizza dough", "amount": "1 ball"},
-      {"name": "tomatoes", "amount": "4"},
-      {"name": "fresh mozzarella", "amount": "200g"},
-      {"name": "basil leaves", "amount": "1/2 cup"}
+      { "name": "pizza dough", "amount": "1 ball" },
+      { "name": "tomatoes", "amount": "4" },
+      { "name": "fresh mozzarella", "amount": "200g" },
+      { "name": "basil leaves", "amount": "1/2 cup" }
     ],
     "instructions": "Roll out dough, top with sliced tomatoes and mozzarella. Bake until crust is golden. Garnish with fresh basil.",
     "cookingTime": 15,
@@ -52,10 +52,10 @@
     "title": "Beef Tacos",
     "category": "Mexican",
     "ingredients": [
-      {"name": "ground beef", "amount": "300g"},
-      {"name": "taco shells", "amount": "8"},
-      {"name": "lettuce", "amount": "1 cup"},
-      {"name": "cheddar cheese", "amount": "100g"}
+      { "name": "ground beef", "amount": "300g" },
+      { "name": "taco shells", "amount": "8" },
+      { "name": "lettuce", "amount": "1 cup" },
+      { "name": "cheddar cheese", "amount": "100g" }
     ],
     "instructions": "Brown beef, season. Fill taco shells with beef, lettuce, and cheese. Serve hot.",
     "cookingTime": 20,
@@ -68,10 +68,10 @@
     "title": "Salmon with Lemon-Dill Sauce",
     "category": "Seafood",
     "ingredients": [
-      {"name": "salmon fillets", "amount": "4"},
-      {"name": "lemon", "amount": "1"},
-      {"name": "fresh dill", "amount": "2 tbsp"},
-      {"name": "olive oil", "amount": "3 tbsp"}
+      { "name": "salmon fillets", "amount": "4" },
+      { "name": "lemon", "amount": "1" },
+      { "name": "fresh dill", "amount": "2 tbsp" },
+      { "name": "olive oil", "amount": "3 tbsp" }
     ],
     "instructions": "Season salmon, bake until cooked. Mix lemon juice, dill, and olive oil. Drizzle over salmon before serving.",
     "cookingTime": 25,
@@ -84,10 +84,10 @@
     "title": "Caprese Salad",
     "category": "Salad",
     "ingredients": [
-      {"name": "tomatoes", "amount": "3"},
-      {"name": "mozzarella cheese", "amount": "200g"},
-      {"name": "fresh basil", "amount": "1/2 cup"},
-      {"name": "balsamic glaze", "amount": "2 tbsp"}
+      { "name": "tomatoes", "amount": "3" },
+      { "name": "mozzarella cheese", "amount": "200g" },
+      { "name": "fresh basil", "amount": "1/2 cup" },
+      { "name": "balsamic glaze", "amount": "2 tbsp" }
     ],
     "instructions": "Slice tomatoes and mozzarella. Arrange on a plate with fresh basil. Drizzle with balsamic glaze before serving.",
     "cookingTime": 10,
@@ -100,10 +100,10 @@
     "title": "Spinach and Feta Stuffed Chicken",
     "category": "Chicken",
     "ingredients": [
-      {"name": "chicken breasts", "amount": "4"},
-      {"name": "spinach", "amount": "150g"},
-      {"name": "feta cheese", "amount": "100g"},
-      {"name": "garlic", "amount": "3 cloves"}
+      { "name": "chicken breasts", "amount": "4" },
+      { "name": "spinach", "amount": "150g" },
+      { "name": "feta cheese", "amount": "100g" },
+      { "name": "garlic", "amount": "3 cloves" }
     ],
     "instructions": "Saute spinach and garlic. Mix with crumbled feta. Cut a pocket in chicken breasts, stuff with spinach mixture. Bake until chicken is cooked.",
     "cookingTime": 35,
@@ -116,10 +116,10 @@
     "title": "Shrimp Scampi",
     "category": "Seafood",
     "ingredients": [
-      {"name": "shrimp", "amount": "500g"},
-      {"name": "linguine", "amount": "300g"},
-      {"name": "butter", "amount": "1/2 cup"},
-      {"name": "garlic", "amount": "4 cloves"}
+      { "name": "shrimp", "amount": "500g" },
+      { "name": "linguine", "amount": "300g" },
+      { "name": "butter", "amount": "1/2 cup" },
+      { "name": "garlic", "amount": "4 cloves" }
     ],
     "instructions": "Cook linguine. Saute shrimp and garlic in butter. Toss with cooked pasta. Serve hot.",
     "cookingTime": 25,
@@ -132,10 +132,10 @@
     "title": "Homemade Sushi Rolls",
     "category": "Japanese",
     "ingredients": [
-      {"name": "sushi rice", "amount": "2 cups"},
-      {"name": "nori sheets", "amount": "10"},
-      {"name": "avocado", "amount": "1"},
-      {"name": "fresh fish (salmon or tuna)", "amount": "200g"}
+      { "name": "sushi rice", "amount": "2 cups" },
+      { "name": "nori sheets", "amount": "10" },
+      { "name": "avocado", "amount": "1" },
+      { "name": "fresh fish (salmon or tuna)", "amount": "200g" }
     ],
     "instructions": "Prepare sushi rice. Lay out nori sheets, add rice, avocado, and fish. Roll tightly. Slice and serve with soy sauce.",
     "cookingTime": 40,
@@ -148,10 +148,10 @@
     "title": "Mushroom Risotto",
     "category": "Risotto",
     "ingredients": [
-      {"name": "arborio rice", "amount": "1 cup"},
-      {"name": "mushrooms", "amount": "250g"},
-      {"name": "chicken broth", "amount": "4 cups"},
-      {"name": "white wine", "amount": "1/2 cup"}
+      { "name": "arborio rice", "amount": "1 cup" },
+      { "name": "mushrooms", "amount": "250g" },
+      { "name": "chicken broth", "amount": "4 cups" },
+      { "name": "white wine", "amount": "1/2 cup" }
     ],
     "instructions": "Saute mushrooms. Add rice, wine, and broth gradually. Stir until rice is creamy. Serve hot.",
     "cookingTime": 30,
@@ -164,10 +164,10 @@
     "title": "Honey Mustard Glazed Salmon",
     "category": "Seafood",
     "ingredients": [
-      {"name": "salmon fillets", "amount": "4"},
-      {"name": "honey", "amount": "2 tbsp"},
-      {"name": "Dijon mustard", "amount": "2 tbsp"},
-      {"name": "soy sauce", "amount": "1 tbsp"}
+      { "name": "salmon fillets", "amount": "4" },
+      { "name": "honey", "amount": "2 tbsp" },
+      { "name": "Dijon mustard", "amount": "2 tbsp" },
+      { "name": "soy sauce", "amount": "1 tbsp" }
     ],
     "instructions": "Mix honey, mustard, and soy sauce. Brush over salmon fillets. Bake until salmon is cooked.",
     "cookingTime": 20,
@@ -180,10 +180,10 @@
     "title": "Chicken Quesadillas",
     "category": "Mexican",
     "ingredients": [
-      {"name": "cooked chicken", "amount": "2 cups"},
-      {"name": "tortillas", "amount": "8"},
-      {"name": "cheddar cheese", "amount": "150g"},
-      {"name": "sour cream", "amount": "1/2 cup"}
+      { "name": "cooked chicken", "amount": "2 cups" },
+      { "name": "tortillas", "amount": "8" },
+      { "name": "cheddar cheese", "amount": "150g" },
+      { "name": "sour cream", "amount": "1/2 cup" }
     ],
     "instructions": "Fill tortillas with chicken and cheese. Cook until cheese is melted. Serve with sour cream.",
     "cookingTime": 15,
@@ -196,10 +196,10 @@
     "title": "Greek Salad",
     "category": "Salad",
     "ingredients": [
-      {"name": "cucumbers", "amount": "2"},
-      {"name": "tomatoes", "amount": "2"},
-      {"name": "feta cheese", "amount": "100g"},
-      {"name": "olives", "amount": "1/2 cup"}
+      { "name": "cucumbers", "amount": "2" },
+      { "name": "tomatoes", "amount": "2" },
+      { "name": "feta cheese", "amount": "100g" },
+      { "name": "olives", "amount": "1/2 cup" }
     ],
     "instructions": "Dice cucumbers, tomatoes, and feta. Toss together with olives. Drizzle with olive oil.",
     "cookingTime": 10,
@@ -212,10 +212,10 @@
     "title": "Teriyaki Chicken Stir-Fry",
     "category": "Japanese",
     "ingredients": [
-      {"name": "chicken thighs", "amount": "500g"},
-      {"name": "broccoli", "amount": "200g"},
-      {"name": "carrots", "amount": "150g"},
-      {"name": "teriyaki sauce", "amount": "1/4 cup"}
+      { "name": "chicken thighs", "amount": "500g" },
+      { "name": "broccoli", "amount": "200g" },
+      { "name": "carrots", "amount": "150g" },
+      { "name": "teriyaki sauce", "amount": "1/4 cup" }
     ],
     "instructions": "Slice chicken, stir-fry with vegetables. Add teriyaki sauce and cook until everything is heated through. Serve hot.",
     "cookingTime": 25,
@@ -228,10 +228,10 @@
     "title": "Pesto Pasta",
     "category": "Pasta",
     "ingredients": [
-      {"name": "penne pasta", "amount": "250g"},
-      {"name": "basil pesto", "amount": "1/2 cup"},
-      {"name": "cherry tomatoes", "amount": "1 cup"},
-      {"name": "parmesan cheese", "amount": "50g"}
+      { "name": "penne pasta", "amount": "250g" },
+      { "name": "basil pesto", "amount": "1/2 cup" },
+      { "name": "cherry tomatoes", "amount": "1 cup" },
+      { "name": "parmesan cheese", "amount": "50g" }
     ],
     "instructions": "Cook pasta. Toss with pesto and halved cherry tomatoes. Top with parmesan cheese before serving.",
     "cookingTime": 20,
@@ -244,10 +244,10 @@
     "title": "Beef and Broccoli Stir-Fry",
     "category": "Chinese",
     "ingredients": [
-      {"name": "beef sirloin", "amount": "400g"},
-      {"name": "broccoli", "amount": "300g"},
-      {"name": "soy sauce", "amount": "3 tbsp"},
-      {"name": "ginger", "amount": "1 tbsp"}
+      { "name": "beef sirloin", "amount": "400g" },
+      { "name": "broccoli", "amount": "300g" },
+      { "name": "soy sauce", "amount": "3 tbsp" },
+      { "name": "ginger", "amount": "1 tbsp" }
     ],
     "instructions": "Slice beef thinly. Stir-fry with broccoli, soy sauce, and ginger until beef is cooked. Serve hot.",
     "cookingTime": 25,
@@ -260,10 +260,10 @@
     "title": "Butternut Squash Soup",
     "category": "Soup",
     "ingredients": [
-      {"name": "butternut squash", "amount": "1"},
-      {"name": "onion", "amount": "1"},
-      {"name": "vegetable broth", "amount": "4 cups"},
-      {"name": "cream", "amount": "1/2 cup"}
+      { "name": "butternut squash", "amount": "1" },
+      { "name": "onion", "amount": "1" },
+      { "name": "vegetable broth", "amount": "4 cups" },
+      { "name": "cream", "amount": "1/2 cup" }
     ],
     "instructions": "Roast squash and onion. Blend with vegetable broth until smooth. Add cream and heat through.",
     "cookingTime": 30,
@@ -276,10 +276,10 @@
     "title": "Lemon Garlic Shrimp Pasta",
     "category": "Seafood",
     "ingredients": [
-      {"name": "shrimp", "amount": "400g"},
-      {"name": "linguine", "amount": "300g"},
-      {"name": "lemon", "amount": "1"},
-      {"name": "garlic", "amount": "4 cloves"}
+      { "name": "shrimp", "amount": "400g" },
+      { "name": "linguine", "amount": "300g" },
+      { "name": "lemon", "amount": "1" },
+      { "name": "garlic", "amount": "4 cloves" }
     ],
     "instructions": "Cook pasta. Saute shrimp, garlic, and lemon zest. Toss with cooked linguine. Serve hot.",
     "cookingTime": 20,
@@ -292,10 +292,10 @@
     "title": "Egg Fried Rice",
     "category": "Chinese",
     "ingredients": [
-      {"name": "cooked rice", "amount": "2 cups"},
-      {"name": "eggs", "amount": "3"},
-      {"name": "peas", "amount": "1/2 cup"},
-      {"name": "soy sauce", "amount": "2 tbsp"}
+      { "name": "cooked rice", "amount": "2 cups" },
+      { "name": "eggs", "amount": "3" },
+      { "name": "peas", "amount": "1/2 cup" },
+      { "name": "soy sauce", "amount": "2 tbsp" }
     ],
     "instructions": "Scramble eggs. Add cooked rice, peas, and soy sauce. Stir until heated through. Serve hot.",
     "cookingTime": 15,
@@ -308,15 +308,30 @@
     "title": "Ratatouille",
     "category": "Vegetarian",
     "ingredients": [
-      {"name": "zucchini", "amount": "1"},
-      {"name": "eggplant", "amount": "1"},
-      {"name": "bell peppers", "amount": "2"},
-      {"name": "tomatoes", "amount": "3"}
+      { "name": "zucchini", "amount": "1" },
+      { "name": "eggplant", "amount": "1" },
+      { "name": "bell peppers", "amount": "2" },
+      { "name": "tomatoes", "amount": "3" }
     ],
     "instructions": "Slice vegetables thinly. Arrange in a baking dish. Bake until vegetables are tender. Serve warm.",
     "cookingTime": 40,
     "difficulty": "Intermediate",
     "servings": 4,
     "image": "ratatouille.jpg"
+  },
+  {
+    "id": "02adfe58-b0bb-4448-a787-935eb87064cb",
+    "title": "Tomatensoep",
+    "category": "Soep",
+    "ingredients": [
+      { "name": "tomaten", "amount": "500g" },
+      { "name": "uien", "amount": "2" },
+      { "name": "bouillon", "amount": "1 liter" },
+      { "name": "kruiden", "amount": "naar smaak" }
+    ],
+    "instructions": "Fruit de uien, voeg de tomaten en bouillon toe, breng op smaak met kruiden en laat sudderen.",
+    "cookingTime": 30,
+    "difficulty": "Gemakkelijk",
+    "servings": 4
   }
 ]

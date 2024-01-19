@@ -4,8 +4,10 @@ const app = express();
 const recipeRoutes = require('./routes/recipeRoutes');
 const cors = require('cors');
 require('dotenv').config();
+const bodyParser = require('body-parser');
 
 app.use(cors());
+app.use(bodyParser.json());
 app.use(recipeRoutes);
 
 app.listen(process.env.API_URL, () => {
