@@ -34,23 +34,25 @@ getRecipes();
 
 // ADD RECIPE
 
-// function addRecipe() {
-//     const title = document.getElementById('title').value;
-//     const category = document.getElementById('category').value;
-//     const ingredients = document.getElementById('ingredients').value;
-//     const instructions = document.getElementById('instructions').value;
-//     const cookingTime = parseInt(document.getElementById('cookingtime').value, 10);
-//     const difficulty = document.getElementById('difficulty').value;
-//     const servings = parseInt(document.getElementById('servings').value, 10);
+function addRecipe() {
+    const title = document.getElementById('title').value;
+    const category = document.getElementById('category').value;
+    const ingredients = document.getElementById('ingredients').value;
+    const instructions = document.getElementById('instructions').value;
+    const cookingTime = parseInt(document.getElementById('cookingtime').value, 10);
+    const difficulty = document.getElementById('difficulty').value;
+    const servings = parseInt(document.getElementById('servings').value, 10);
 
-//     const newRecipe = {
-//         title,
-//         category,
-//         instructions,
-//         cookingTime,
-//         difficulty,
-//         servings
-//     };
+    const newRecipe = {
+        title,
+        category,
+        instructions,
+        cookingTime,
+        difficulty,
+        servings
+    };
 
-//     alert('New recipe added!');
-// };
+    return newRecipe;
+
+    alert('New recipe added!');
+};
