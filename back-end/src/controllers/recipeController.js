@@ -27,13 +27,14 @@ async function addRecipe(request, response) {
 }
 
 async function deleteRecipe(request, response) {
+  let recipes = request.body;
   if (id) {
-    const data = await fsp.readFile(usersFilePath, "utf8");
+    const data = await fsp.readFile(recipesPath, "utf8");
     const recipe = JSON.parse(data);
-    const updatedRecipes = recipes.filter((recipe) => recipe.id !== id);
+    const deletedRecipe = recipes.filter((recipe) => recipe.id !== id);
     await fsp.writeFile(
       recipesFilePath,
-      JSON.stringify(updatedRecipes, null, 2),
+      JSON.stringify(deletedRecipe, null, 2),
       "utf8"
     );
   }
