@@ -1,9 +1,10 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const { addRecipe, getRecipe } = require('../controllers/recipeController');
+const { addRecipe, getRecipe } = require("../controllers/recipeController");
 
-router.get('/recipes/:id', getRecipe);
-router.get('/recipes', getRecipe);
-router.post('/recipes', addRecipe);
+router.get("/recipes/:id", getRecipe);
+router.get("/recipes", getRecipe);
+router.post("/recipes", addRecipe);
+router.delete("/recipes/:id", deleteRecipes);
 
 module.exports = router;

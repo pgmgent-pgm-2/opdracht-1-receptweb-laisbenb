@@ -13,7 +13,7 @@ async function getRecipe(request, response) {
   let recipes = await getContentFromFile(recipesPath);
 
   if (id) {
-    recipes = recipes.find((recipe) => recipe.id === parseInt(id));
+    recipes = recipes.find((recipe) => recipe.id == id);
   }
   response.json(recipes);
 }
@@ -26,7 +26,21 @@ async function addRecipe(request, response) {
   await fsp.writeFile(recipesPath, JSON.stringify(jsonData), null, 2);
 }
 
+async function deleteRecipe(request, response) {
+  if (id) {
+    const data = await fsp.readFile(usersFilePath, "utf8");
+    const recipe = JSON.parse(data);
+    const updatedRecipes = recipes.filter((recipe) => recipe.id !== id);
+    await fsp.writeFile(
+      recipesFilePath,
+      JSON.stringify(updatedRecipes, null, 2),
+      "utf8"
+    );
+  }
+}
+
 module.exports = {
   getRecipe,
   addRecipe,
+  deleteRecipe,
 };
